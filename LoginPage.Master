@@ -1,0 +1,312 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.master.cs"
+    Inherits="POS_Code.LoginPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Login Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <%--<script src="jquery/jquery-1.7.js"></script>
+    
+    <script src="jquery/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="jquery/eteam.js"></script>  --%>
+
+    <script src='<%# ResolveUrl("~/jquery/jquery-1.7.js" ) %>' type="text/javascript"></script>
+
+    <script src='<%# ResolveUrl("~/jquery/jquery-ui-1.8.16.custom.min.js" ) %>' type="text/javascript"></script>
+
+    <script src='<%# ResolveUrl("~/jquery/eteam.js" ) %>' type="text/javascript"></script>
+
+    <script src='<%# ResolveUrl("~/jquery/eteam.js" ) %>' type="text/javascript"></script>
+
+    <!--<link href="~/jquery/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />-->
+</head>
+<body class="body">
+    <div id="contain_all">
+        <div id="head">
+            <div id="wrap-main-nav">
+                <div id="main-handle">
+                    <div>
+                        <ul id="main-nav">
+                            <li><a target="_blank" class="home" title="Go to the UNO Home Page" href="http://www.unomaha.edu/"
+                                style="padding-bottom: 2px; border-left: medium none;">
+                                <img src="images/home-navtop.png" alt="UNO Home Page" /></a></li>
+                            <li><a target="_blank" href="http://www.unomaha.edu/prospective.php" class="off">Prospective
+                                Students</a></li>
+                            <li><a target="_blank" href="http://www.unomaha.edu/current.php" class="off">Current
+                                Students</a></li>
+                            <li><a target="_blank" href="http://www.unomaha.edu/facstaff.php" class="off">Faculty
+                                &amp; Staff</a></li>
+                            <li><a target="_blank" href="http://www.unomaha.edu/visitors.php" class="off">Alumni
+                                &amp; Visitors</a></li>
+                            <li><a target="_blank" href="http://www.unomaha.edu/news/index.php" class="off">News</a></li>
+                            <li><a target="_blank" href="http://my.unomaha.edu/" class="off">my.unomaha.edu</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="head_mark">
+                <a target="_blank" href="http://www.unomaha.edu/" title="University of Nebraska at Omaha Home Page">
+                    <img src="images/pixie.gif" alt="University of Nebraska at Omaha" /></a>
+            </div>
+            <div id="nav_search">
+                <div id="search">
+                    <form action="http://www.unomaha.edu/search-result.php" id="searchbox">
+                    <div id="unosearch">
+                        <label for="q" style="padding: 3px 0pt 0pt;">
+                            <img src="images/label-uno-search.gif" alt="search" />
+                        </label>
+                        <!-- Google CSE Search Box Begins -->
+                        <input name="cx" value="002646972799648025672:k_yu2m9ssto" type="hidden" />
+                        <input name="cof" value="FORID:11" type="hidden" />
+                        <input name="ie" value="UTF-8" type="hidden" />
+                        <input name="q" id="q" size="17" class="menu" style="border: 1px solid rgb(89, 89, 89);"
+                            type="text" />
+                        <input name="sa" src="images/search-go.png" alt="go" style="padding: 2px 0pt 0pt 4px;
+                            border: 0pt none;" type="image" />
+                        <!-- Google CSE Search Box Ends -->
+                    </div>
+                    <div id="quicklinks">
+                        <ul class="nav-ql">
+                            <li class="start"><a href="#">&nbsp;</a>
+                                <ul>
+                                    <!--<ul style="display: none; visibility: hidden;">-->
+                                    <!-- begin opt group -->
+                                    <li class=""><a href="#">Selected Resources »</a>
+                                        <ul>
+                                            <li class=""><a href="http://www.unomaha.edu/maps/">Campus Maps</a></li>
+                                            <li class=""><a href="http://www.unomaha.edu/chancellor/">Chancellor's Office</a></li>
+                                            <li class=""><a href="http://www.nebraska.edu/4in1/">Faculty &amp; Staff Directory</a></li>
+                                            <li class=""><a href="#">Library »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://library.unomaha.edu/">Home</a></li>
+                                                    <li><a href="http://catalog.lib.unomaha.edu/">Catalog</a></li>
+                                                    <li><a href="http://catalog.lib.unomaha.edu/patroninfo/">Renew Materials</a></li>
+                                                    <li><a href="http://library.unomaha.edu/services/reserves_student.htm">Reserves</a></li>
+                                                    <li><a href="http://mutuo.lib.unomaha.edu/NBU/logon.html">Inter-Library Loan</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="http://unoportfolio.unomaha.edu/">Campus ePortfolio</a></li>
+                                            <li class=""><a href="http://www.unomaha.edu/instres/oir/">Institutional Research</a></li>
+                                            <li class=""><a href="http://www.unomaha.edu/security/parkinginfo.php">Parking</a></li>
+                                            <li class=""><a href="http://registrar.unomaha.edu/transcript_verification.php">Transcripts</a></li>
+                                            <li class=""><a href="#">UNO Calendars »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://registrar.unomaha.edu/calendar/">Academic Calendar</a></li>
+                                                    <li><a href="http://events.unomaha.edu/">Events Calendar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="http://www.unomaha.edu/policies/">UNO Policy Library</a></li>
+                                            <li class=""><a href="http://www.ses.unomaha.edu/recruit/visit.php">Visit Campus</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                    <li class=""><a href="#">Prospective Students »</a>
+                                        <ul>
+                                            <li><a href="http://www.unomaha.edu/prospective.php">Home</a></li>
+                                            <li class=""><a href="#">Admissions »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://admissions.unomaha.edu/">Home</a></li>
+                                                    <li><a href="http://www.unomaha.edu/mycampus/">Distance Education</a></li>
+                                                    <li><a href="http://admissions.unomaha.edu/app_info.php">Undergraduate</a></li>
+                                                    <li><a href="http://www.unomaha.edu/graduate/">Graduate</a></li>
+                                                    <li><a href="http://world.unomaha.edu/index.php?page=admissions">International</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="#">Enrolling »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://registrar.unomaha.edu/calendar/">Academic Calendar</a></li>
+                                                    <li><a href="https://ebruno.unomaha.edu/schedule/">Schedule of Classes</a></li>
+                                                    <li><a href="http://registrar.unomaha.edu/catalogs.php">Course Catalogs</a></li>
+                                                    <li><a href="http://www.unomaha.edu/four-year.php">Four-Year Guarantee</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="#">Paying for College »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://perkins.unomaha.edu/">Perkins Loan Ofice</a></li>
+                                                    <li><a href="http://financialaid.unomaha.edu/scholarship_info.php">Scholarships</a></li>
+                                                    <li><a href="http://financialaid.unomaha.edu/">Fin. Aid</a></li>
+                                                    <li><a href="http://cashiering.unomaha.edu/tuition.php">Tuition, &amp; Fees</a></li>
+                                                    <li><a href="http://financialaid.unomaha.edu/cost.php">Cost of Attendance</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="#">Parents, Families »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://www.ses.unomaha.edu/recruit/parents.php">Home</a></li>
+                                                    <li><a href="http://www.ses.unomaha.edu/recruit/visit.php">Visit</a></li>
+                                                    <li><a href="http://financialaid.unomaha.edu/cost.php">Cost of Attendance</a></li>
+                                                    <li><a href="http://www.ses.unomaha.edu/recruit/contactus.php">Contact</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="#">Housing »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="https://www.ses.unomaha.edu/housing/application/login.php">Apply</a></li>
+                                                    <li><a href="http://housing.unomaha.edu/oncampus.php">On Campus</a></li>
+                                                    <li><a href="http://mbsc.unomaha.edu/och.php">Off Campus</a></li>
+                                                    <li><a href="http://world.unomaha.edu/index.php?page=studentservices&amp;subpage=newstudentservices&amp;content=housing">
+                                                        International</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                    <li class=""><a href="#">Current Students »</a>
+                                        <ul>
+                                            <li><a href="http://www.unomaha.edu/current.php">Home</a></li>
+                                            <li class=""><a href="#">Academic Resources »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://myuno.unomaha.edu/">myBlackboard</a></li>
+                                                    <li><a href="http://registrar.unomaha.edu/calendar/">Academic Calendar</a></li>
+                                                    <li><a href="http://www.unomaha.edu/aandsaffairs/">Academic &amp; Student Affairs</a></li>
+                                                    <li><a href="http://www.unomaha.edu/colleges.php">Colleges &amp; Departments</a></li>
+                                                    <li><a href="http://library.unomaha.edu/">Library</a></li>
+                                                    <li><a href="http://www.unomaha.edu/writingcenter/">Writing Center</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class=""><a href="#">Records &amp; Registration »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://registrar.unomaha.edu/">Home</a></li>
+                                                    <li><a href="http://mavlink.unomaha.edu/">mavlink</a></li>
+                                                    <li><a href="https://ebruno.unomaha.edu/schedule/">Schedule of Classes</a></li>
+                                                    <li><a href="http://registrar.unomaha.edu/catalogs.php">Course Catalogs</a></li>
+                                                    <li><a href="http://registrar.unomaha.edu/transcript_verification.php">Transcripts</a></li>
+                                                    <li><a href="http://registrar.unomaha.edu/name_addr_change.php">Name &amp; Address Changes</a></li>
+                                                    <li><a href="http://registrar.unomaha.edu/drop_add.php">Drop/Add, Late Add &amp; Refund</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="http://financialaid.unomaha.edu/">Financial Aid</a></li>
+                                            <li class=""><a href="#">Additional Resources »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://housing.unomaha.edu/">Housing</a></li>
+                                                    <li><a href="http://mbsc.unomaha.edu/">Student Center</a></li>
+                                                    <li><a href="http://sguno.unomaha.edu/">Student Government</a></li>
+                                                    <li><a href="http://studentorgs.unomaha.edu/">Stu. Orgs. &amp; Leadership Progs.</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                    <li class=""><a href="#">Performance &amp; Exhibition »</a>
+                                        <ul>
+                                            <li><a href="http://www.unomaha.edu/fineart/art/unoartgallery/welcome.htm">Art Gallery</a></li>
+                                            <li><a href="http://www.unomaha.edu/music/reservations.php">Strauss Perf. Arts Ctr.</a></li>
+                                            <li><a href="http://www.unotheatre.com/">Theatre</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                    <li class=""><a href="#">News &amp; Publications »</a>
+                                        <ul style="display: none; visibility: hidden;">
+                                            <li><a href="http://www.unomaha.edu/enotes/">eNotes</a></li>
+                                            <li><a href="http://www.unomaha.edu/news/releases/">News Releases</a></li>
+                                            <li><a href="http://maverickland.unomaha.edu/">Maverickland</a></li>
+                                            <li><a href="http://www.unogateway.com/">Gateway</a></li>
+                                            <li><a href="http://www.kvno.org/">KVNO</a></li>
+                                            <li><a href="http://unotv.unomaha.edu/">UNO Television</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                    <li class=""><a href="#">Campus Services »</a>
+                                        <ul>
+                                            <li><a href="http://www.unomaha.edu/%7Eacctserv/">Accounting Services</a></li>
+                                            <li><a href="http://www.unomaha.edu/%7Ebnf/">Business and Finance</a></li>
+                                            <li><a href="http://www.unomaha.edu/%7Ewwwocr/">Campus Recreation</a></li>
+                                            <li><a href="http://www.unomaha.edu/security/">Campus Security</a></li>
+                                            <li><a href="http://unoceo.unomaha.edu/">Career Center</a></li>
+                                            <li><a href="http://counseling.unomaha.edu/">Counseling Center</a></li>
+                                            <li><a href="http://www.unomaha.edu/humanresources/employment.php">Employment at UNO</a></li>
+                                            <li><a href="http://www.unomaha.edu/humanresources/">Human Resources</a></li>
+                                            <li class=""><a href="#">Information Services »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://is.unomaha.edu/">Home</a></li>
+                                                    <li><a href="http://is.unomaha.edu/help.php">Help</a></li>
+                                                    <li><a href="http://is.unomaha.edu/forms/">All Request Forms</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="http://mavcard.unomaha.edu/">MavCard Services</a></li>
+                                            <li><a href="http://www.unomaha.edu/spr/">Sponsored Progs. &amp; Research</a></li>
+                                            <li><a href="http://studenthealth.unomaha.edu/">Student Health Services</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                    <li class=""><a href="#">Affiliated Organizations »</a>
+                                        <ul>
+                                            <li class=""><a href="#">Alumni Association »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://www.unoalumni.org/">Home</a></li>
+                                                    <li><a href="http://www.unoalumni.org/give_to_uno/">Give</a></li>
+                                                    <li><a href="http://www.unoalumni.org/unoevents/">Events</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="http://www.nufoundation.org/index.sp">NU Foundation</a></li>
+                                            <li class=""><a href="http://www.nebraska.edu/">University Administration »</a>
+                                                <ul style="display: none; visibility: hidden;">
+                                                    <li><a href="http://www.nebraska.edu/">Home</a></li>
+                                                    <li><a href="http://www.nebraska.edu/about/admin_pres.shtml">President's Office</a></li>
+                                                    <li><a href="http://www.nebraska.edu/board/">Board of Regents</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end opt group -->
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="headerbuttons">
+                            <a href="http://events.unomaha.edu/" title="Events Calendar" class="btn-cal-shad"><span
+                                class="hide">UNO Events Calendar </span>
+                            </a>
+                            <a href="#" onkeypress="window.open('http://www.crh.noaa.gov/ifps/MapClick.php?MapType=3&amp;site=OAX&amp;CiTemplate=1&amp;map.x=223&amp;map.y=156','NWS_Forecast_for_Omaha','scrollbars=yes,width=790')"
+                                    onclick="window.open('http://www.crh.noaa.gov/ifps/MapClick.php?MapType=3&amp;site=OAX&amp;CiTemplate=1&amp;map.x=223&amp;map.y=156','NWS_Forecast_for_Omaha','scrollbars=yes,width=790')"
+                                    title="Weather" class="btn-weather"><span class="hide">Omaha Weather </span>
+                            </a>
+                            <a href="http://www.unomaha.edu/rss.php" title="UNO RSS Feeds" class="btn-rss"><span
+                                class="hide">RSS Feeds </span></a>
+                        </div>
+                        <div class="othersearch">
+                            <a target="_blank" href="http://www.unomaha.edu/site.php">A-Z Index</a>
+                            <a target="_blank"
+                                href="http://findme.unomaha.edu/">Peoplefinder</a>
+                                <a target="_blank" href="http://www.unomaha.edu/maps/"
+                                    style="border-right: medium none;">Map</a>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <!-- end search-->
+            </div>
+            <!-- end nav search-->
+        </div>
+        <div id="title_wrap">
+            <img src="images/back3.jpg" alt="titlebck" height="140px" width="966px" />
+        </div>
+        <%--<div id="nav">
+            <div id="nav_links">
+                <div id="nav_links_css">
+                    <!-- BeginEditable name="02 Tabs" -->
+                    <ul>
+                        <li><a href="http://si2.ist.unomaha.edu/?p=index" class="nav">Home</a></li>
+                    </ul>
+                    <!-- TemplateEndEditable -->
+                </div>
+            </div>
+        </div>--%>
+        <form id="POSForm" runat="server">
+        <div id="page">
+            <div>
+                <asp:Label ID="lblWelcome" runat="server" Font-Size="Smaller" ForeColor="Blue"></asp:Label>
+            </div>
+            <td align="left" id="primary">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <br class="clear" />
+        </div>
+        <div id="footer">
+            <p style="color: Black">
+                © 2013 University of Nebraska at Omaha College of Information Science & Technology</p>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

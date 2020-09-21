@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_Code", "Sample POS\POS_Code.csproj", "{94D83070-E16E-4B8B-ADA7-5685A5CF243E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D83070-E16E-4B8B-ADA7-5685A5CF243E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D83070-E16E-4B8B-ADA7-5685A5CF243E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D83070-E16E-4B8B-ADA7-5685A5CF243E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D83070-E16E-4B8B-ADA7-5685A5CF243E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
