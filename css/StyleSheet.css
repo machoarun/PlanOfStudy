@@ -1,0 +1,288 @@
+﻿/** BASIC */
+
+body
+{
+	
+	font: normal .8em Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(../IMAGES/body5.jpg);	
+	height:100%;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #336600;
+}
+
+ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+a {
+	color: #336600;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/** HEADER */
+
+.header
+{
+	width: 1024px;
+	height: 80px;
+	margin: 0px auto;
+	background: url('IMAGES/img01.gif') #cde2a1 no-repeat left top;
+}
+
+.header h1 {
+	float: left;
+	margin: 0px;
+	padding: 35px 0px 0px 10px;
+	font-family:Tahoma;
+}
+
+.header h2 {
+	float: right;
+	margin: 0px;
+	padding: 43px 10px 0px 0px;
+	background: url('images/img02.gif') no-repeat right top;
+}
+
+/** MENU */
+
+.menu1 {
+	width: 1024px;
+	height: 30px;
+	margin: 0px auto;
+	background: url('images/img03.gif') repeat-x left top;
+}
+
+.menu1 ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu1 li {
+	display: inline;
+}
+
+.menu1 a {
+	display: block;
+	float: left;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: smaller;
+	font-weight: bold;
+	color: #336600;
+}
+
+.menu1 a:hover {
+	color: #FFFFFF;
+}
+
+/** CONTENT */
+
+.content
+{
+	width: 1024px;
+	margin: 0px auto;
+	min-height: 490px;
+	background-color: #F5F9EC;
+	border-left:solid 1px #cde2a1;
+	border-right:solid 1px #cde2a1;
+	border-collapse:collapse;
+}
+
+
+
+/** FOOTER */
+
+.footer {
+	width: 1024px;
+	margin: 0px auto;
+	background: #BED985 url('images/img05.gif') no-repeat left bottom;
+}
+
+.footer p
+{
+	margin: 0px;
+	padding: 5px 10px;
+	background: url('IMAGES/img06.gif') no-repeat right bottom;
+	font-size: smaller;
+}
+
+/*Control Styles*/
+
+.Label
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:small;
+	color:#336600;
+	height: 26px;
+}
+.SubLabel
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:small;
+	color:#336600;
+	font-weight:bold;
+}
+.Dashboard
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:small;
+	color:#336600;
+	background-color:White;
+
+}
+.DashboardRow
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:small;
+	color:#336600;
+}
+.DashboardHeader
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:small;
+	color:#ffffff;
+	background-color:#336600;
+}
+.LabelHeading
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:medium;
+	color:#336600;
+	font-weight:bold;
+}
+.LabelAccessDenied
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:xx-large;
+	color:Red;
+	font-weight:bold;
+}
+.LabelError
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:small;
+	color:Red;
+}
+.TextBox
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	height:14px;
+	min-height: 14px;
+	height: auto !important;
+	width: auto !important;
+}
+.LongTextBox
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	height:14px;
+	min-height: 14px;
+	height: auto !important;
+	width:250px;
+}
+.DDL
+{
+	width: 132px;
+	min-height: 16px;
+	height: auto !important;
+	height: 16px;
+	margin-left: 0px;
+	font-size: 8pt;
+	color:#336600;
+	
+}
+.LongDDL
+{
+	width: 250px;
+	min-height: 16px;
+	height: auto !important;
+	height: 16px;
+	margin-left: 0px;
+	font-size: 8pt;
+	color:#336600;
+}
+.Button
+{
+	font-family: Tahoma,Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	color: #336600;
+	margin-left: 2px;
+	margin-top: 1px;
+	Width:70px;
+	min-height:20px;
+}
+.FileUpload
+{
+	font-family: Tahoma,Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	color: #336600;
+	margin-left: 2px;
+	margin-top: 1px;
+	Width:370px;
+	min-height:20px;
+ 
+}
+.GridViewHeader
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#ffffff;
+	background-color:#336600;
+}
+.GridViewRow
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:10px;
+	color:#336600;
+	background-color:#F4FFEA;
+}
+.GridViewRowAlternateRow
+{
+	margin: 0px;
+	font-family:Tahoma;
+	font-size:10px;
+	color:#336600;
+	background-color:White;
+}
+.Star
+{
+	color:Red;
+	}
+.TextBoxMultiline
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	height: 48px;
+	width: 280px;
+}

@@ -1,0 +1,41 @@
+﻿body {
+margin:0;
+padding:0;
+font-size:1em;
+color:#333;
+font-family:arial, verdana, helvetica, tahoma, sans-serif;
+font-style:normal;
+line-height:normal;
+font-weight:normal;
+font-variant:normal;
+text-transform:none;
+text-decoration:none;}
+
+
+/* Specific to example one */
+
+#div_menu { background: #eee; padding: 10px; margin: 0 0 15px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+
+#div_menu .nav { overflow: hidden; margin: 0 0 10px 0;
+    height: 24px;
+}
+#div_menu .nav li { width: 50px; float: left; margin: 0 0 0 0; }
+#div_menu .nav li.last { margin-right: 0; }
+#div_menu .nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 12px; text-align: center; border: 0; }
+#div_menu .nav li a:hover { background-color: #111; }
+
+#div_menu ul { list-style: none; }
+#div_menu ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#div_menu ul li a:hover, #div_menu ul li a:focus { background: #fe4902; color: white; }
+#div_menu ul li:last-child a { border: none; }
+
+#div_menu li .nav-one a.current, ul.featured li a:hover { background-color: #0575f4; color: white; }
+#div_menu li .nav-two a.current, ul.core li a:hover { background-color: #d30000; color: white; }
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+#lblMessage {
+    color:blue;	
+	font-size:small;
+}
