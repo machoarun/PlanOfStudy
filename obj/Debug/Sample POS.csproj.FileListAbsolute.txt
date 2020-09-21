@@ -1,0 +1,49 @@
+F:\Guo\Sample POS\Sample POS\bin\Sample POS.dll
+F:\Guo\Sample POS\Sample POS\bin\Sample POS.pdb
+F:\Guo\Sample POS\Sample POS\obj\Debug\ResolveAssemblyReference.cache
+F:\Guo\Sample POS\Sample POS\obj\Debug\Sample POS.dll
+F:\Guo\Sample POS\Sample POS\obj\Debug\Sample POS.pdb
+F:\Guo\BKUP\Sample POS - 10142012\Sample POS\bin\Sample POS.dll
+F:\Guo\BKUP\Sample POS - 10142012\Sample POS\bin\Sample POS.pdb
+F:\Guo\BKUP\Sample POS - 10142012\Sample POS\obj\Debug\ResolveAssemblyReference.cache
+F:\Guo\BKUP\Sample POS - 10142012\Sample POS\obj\Debug\Sample POS.dll
+F:\Guo\BKUP\Sample POS - 10142012\Sample POS\obj\Debug\Sample POS.pdb
+F:\Guo\Sample POS\Sample POS\bin\AjaxControlToolkit.pdb
+F:\Guo\Sample POS\Sample POS\bin\ar\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\cs\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\de\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\es\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\fr\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\he\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\hi\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\it\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\ja\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\ko\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\nl\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\pt\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\ru\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\tr-TR\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\zh-CHS\AjaxControlToolkit.resources.dll
+F:\Guo\Sample POS\Sample POS\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\Sample POS.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\Sample POS.pdb
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\AjaxControlToolkit.pdb
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\obj\Debug\Sample POS.dll
+C:\Users\avijayakumar\Downloads\Sample POS\Sample POS\obj\Debug\Sample POS.pdb
